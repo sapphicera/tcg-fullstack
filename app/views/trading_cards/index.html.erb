@@ -1,0 +1,11 @@
+<p>Trading Cards (lol)</p>
+
+<% @trading_cards.each do |card| %>
+<hr>
+<p>id: <%= card.id %></p>
+<p>name: <%= card.name %></p>
+<p>element: <%= card.element %></p>
+<p>hp: <%= card.hp %></p>
+<p>set: <%= card.set %></p>
+<% end %>
+<hr>
