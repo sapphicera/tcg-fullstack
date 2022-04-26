@@ -15,7 +15,7 @@ class PokemonsTest < ApplicationSystemTestCase
     click_on "New pokemon"
 
     fill_in "Name", with: @pokemon.name
-    fill_in "Type", with: @pokemon.type
+    fill_in "Element", with: @pokemon.element
     click_on "Create Pokemon"
 
     assert_text "Pokemon was successfully created"
@@ -27,7 +27,7 @@ class PokemonsTest < ApplicationSystemTestCase
     click_on "Edit this pokemon", match: :first
 
     fill_in "Name", with: @pokemon.name
-    fill_in "Type", with: @pokemon.type
+    fill_in "Element", with: @pokemon.element
     click_on "Update Pokemon"
 
     assert_text "Pokemon was successfully updated"

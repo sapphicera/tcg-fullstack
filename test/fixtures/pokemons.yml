@@ -2,8 +2,8 @@
 
 one:
   name: MyString
-  type: 
+  element: 
 
 two:
   name: MyString
-  type: 
+  element: 
